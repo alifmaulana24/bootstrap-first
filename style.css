@@ -1,0 +1,19 @@
+body {
+    min-height: 2000px;
+}
+.navbar-brand {
+    letter-spacing: 1.4px;
+}
+
+.jumbotron {
+    background-color: #e2edff;
+    /* line-height: 0.5; */
+}
+.jumbotron p {
+    color: black;
+    font-size: 2rem;
+}
+.jumbotron h1 {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}

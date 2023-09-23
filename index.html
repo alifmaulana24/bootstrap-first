@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand ms-lg-5 ms-md-5" href="#">Alif Maulana</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">DOCS</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- JUMBOTRON -->
+    <section class=" mt-5 pt-5 text-white text-center jumbotron">
+      <img
+        src="img/smithsonian-pnqHWE1MhYg-unsplash.jpg"
+        class="rounded-circle img-thumbnail"
+        alt="uwong pokokemah"
+        width="200px"
+      />
+      <h1 class="display-4">Alif Maulana</h1>
+      <p class="lead">Manusia || Biasa</p>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#ffffff"
+          fill-opacity="1"
+          d="M0,128L40,138.7C80,149,160,171,240,197.3C320,224,400,256,480,277.3C560,299,640,309,720,266.7C800,224,880,128,960,117.3C1040,107,1120,181,1200,213.3C1280,245,1360,235,1400,229.3L1440,224L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+      <div class="container">
+        <div class="row text-center mb-5">
+          <div class="col">
+            <h2>ABOUT ME</h2>
+            <hr />
+            <div class="row justify-content-between text-white">
+              <div class="col-5 bg-success rounded">
+                <p class="fs-5">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus
+                  nam harum accusamus, dolorum temporibus possimus aperiam amet veritatis
+                  similique voluptates!
+                </p>
+              </div>
+
+              <div class="col-5 bg-success rounded">
+                <p class="fs-5">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus
+                  nam harum accusamus, dolorum temporibus possimus aperiam amet veritatis
+                  similique voluptates!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col text-center">
+            <h2>Contact</h2>
+            <hr />
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-6">
+            <form action="#">
+              <div class="mb-3">
+                <label for="formGroupExampleInput" class="form-label">Nama Lengkap</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="formGroupExampleInput"
+                  placeholder="Nama Lengkap"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="formGroupExampleInput2" class="form-label">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="formGroupExampleInput2"
+                  placeholder="Email"
+                />
+              </div>
+              <input class="btn btn-primary" type="submit" value="Submit">
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
